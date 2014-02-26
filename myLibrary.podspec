@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author             = { "testkp" => "kbv1249@gmail.com" }
 
 
-  s.source       = { :git => "http://github.com/kbv22/ttgapp/myLibrary.git", }
+  s.source       = { :git => "https://github.com/kbv22/ttgapp/myLibrary.git", :tag => "v1.0.0"}
 
   s.platform     = :ios, '5.0'
   s.source_files  = 'AppDelegate', 'AppDelegate/**/*.{h,m}'
