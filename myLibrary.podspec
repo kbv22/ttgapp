@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/kbv22/ttgapp.git", :tag => "1.0.0"}
 
   s.platform     = :ios, '5.0'
-  s.source_files  = '*.{h,m}'
+  s.source_files  = '..**/*.{h,m}'
   s.requires_arc = true
 
 end
