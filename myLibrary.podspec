@@ -1,18 +1,19 @@
 Pod::Spec.new do |s|
 
   s.name         = "myLibrary"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of myLibrary."
-  s.homepage     = "http://github.com/kbv22/ttgapp"
+  s.version      = "1.0.0"
+  s.summary      = "This is a small summary of this project"
+  s.homepage     = "https://github.com/kbv22/ttgapp"
   s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
 
-  s.author             = { "testkp" => "kbv1249@gmail.com" }
+  s.author             = { "kbv22" => "kbv1249@gmail.com" }
 
 
-  s.source       = { :git => "https://github.com/kbv22/ttgapp/myLibrary.git", :tag => "v1.0.0"}
+  s.source       = { :git => "https://github.com/kbv22/ttgapp.git", :tag => "1.0.0"}
 
   s.platform     = :ios, '5.0'
-  s.source_files  = 'AppDelegate', 'AppDelegate/**/*.{h,m}'
+# s.source_files  = '*.{h,m}'
+  s.source_files  = 'AppDelegate.h,m'
   s.requires_arc = true
 
 end
